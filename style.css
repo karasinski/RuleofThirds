@@ -1,0 +1,30 @@
+body {
+	min-width: 920px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div#mapcontainer {
+	display: inline-block;
+	float: left;
+}
+
+canvas#map {
+}
+
+canvas#mapobjects {
+	position: absolute;
+	left: 0;
+}
+
+canvas#stats {
+	background: #101010;
+	float: left;
+}
+
+div div * {
+	width: 100%;
+}
